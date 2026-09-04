@@ -3,7 +3,7 @@ name: Reusable Global Workflow
 on:
   workflow_call:
     inputs:
-      anbiente:
+      ambiente:
         required: true
         type: string
 
@@ -11,4 +11,4 @@ jobs:
   passos:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.anbiente }}"
+      - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.ambiente }}"
