@@ -12,3 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.ambiente }}"
+
+      cd:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.ambiente }}"
