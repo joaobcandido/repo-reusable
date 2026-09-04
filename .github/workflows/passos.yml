@@ -8,7 +8,7 @@ on:
         type: string
 
 jobs:
-  passos:
+  terceiro:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.ambiente }}"
