@@ -1,0 +1,14 @@
+name: Reusable Global Workflow
+
+on:
+  workflow_call:
+    inputs:
+      versao:
+        required: true
+        type: string
+
+jobs:
+  tarefa-reusable:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Executando o Reusable no repo3! Versão recebida -> ${{ inputs.versao }}"
